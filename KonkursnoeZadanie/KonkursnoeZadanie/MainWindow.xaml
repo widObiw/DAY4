@@ -1,0 +1,30 @@
+﻿<Window x:Class="KonkursnoeZadanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KonkursnoeZadanie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#e0a9af">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="393*"/>
+            <ColumnDefinition Width="407*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="367*"/>
+            <RowDefinition Height="67*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="2"  Grid.Row="2">
+            <Button x:Name="BtnChVin" Content="CheckVIN" Width="100" Height="25" Margin="0 0 5 0" Click="BtnChVin_Click" Background="#d1eefc"/>
+            <Button x:Name="BtnVinCountry" Content="GetVINCountry" Width="100" Height="25" Margin="0 0 5 0" Click="BtnVinCountry_Click" Background="#d1eefc"/>
+            <Button x:Name="BtnTransportYear" Content="GetTransportYear" Width="100" Height="25" Margin="0 0 5 0" Click="BtnTransportYear_Click" Background="#d1eefc"/>
+            <Button x:Name="BtnCheckMark" Content="CheckMark" Width="100" Height="25" Margin="0 0 5 0" Click="BtnCheckMark_Click" Background="#fffcd6"/>
+            <Button x:Name="BtnNextMarkAfter" Content="GetNextMarkAfter" Width="100" Height="25" Margin="0 0 5 0" Click="BtnNextMarkAfter_Click" Background="#fffcd6"/>
+            <Button x:Name="BtnNextMarkAfterInRange" Content="GetNextMarkAfterInRange" Width="100" Height="25" Margin="0 0 5 0" Click="BtnNextMarkAfterInRange_Click" Background="#fffcd6"/>
+
+        </StackPanel>
+        <RichTextBox x:Name="rtbDataRich" Grid.Column="0" Grid.Row="0" Background="#b5d5ca"/>
+        <RichTextBox x:Name="rtbResRich" Grid.Column="1" Grid.Row="0" Background="#b5d5ca"/>
+    </Grid>
+</Window>

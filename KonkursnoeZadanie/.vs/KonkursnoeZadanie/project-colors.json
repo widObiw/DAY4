@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d413991d-c43f-4f79-9ca4-921ebab8cd22": {
+      "ProjectGuid": "d413991d-c43f-4f79-9ca4-921ebab8cd22",
+      "DisplayName": "KonkursnoeZadanie",
+      "ColorIndex": 0
+    },
+    "65821003-8757-428e-bd37-023b3d33105e": {
+      "ProjectGuid": "65821003-8757-428e-bd37-023b3d33105e",
+      "DisplayName": "VIN_LIB",
+      "ColorIndex": 1
+    },
+    "e6f52c0a-f104-4c57-85e8-3a01f1365162": {
+      "ProjectGuid": "e6f52c0a-f104-4c57-85e8-3a01f1365162",
+      "DisplayName": "REG_MARK_LIB",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
